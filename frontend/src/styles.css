@@ -57,4 +57,20 @@ textarea { resize: vertical; }
   button {
     width: 100%;
   }
+}/* Styles pour les menus déroulants du formulaire */
+
+select,
+input,
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #dcdfe4;
+  border-radius: 10px;
+  background: white;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+select {
+  cursor: pointer;
 }
